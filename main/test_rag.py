@@ -8,7 +8,7 @@ load_dotenv()
 url = "http://127.0.0.1:5000/hackrx/run"
 
 # Get API key from environment or use default
-API_KEY = os.getenv("RAG_API_KEY", "c7a6d5889329b758fa0a7a567aa6f453476d1585208de51fb2d59a851da1f935")
+API_KEY = os.getenv("RAG_API_KEY", "your_api_key")
 
 # Complete headers as per specification
 headers = {
