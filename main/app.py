@@ -272,6 +272,8 @@ IMPORTANT INSTRUCTIONS:
 - If the context contains the information but in different sections, synthesize it into a complete answer
 - Only say "not specified" if the information is truly not available in any of the provided contexts
 - Answer in a professional, clear manner suitable for insurance customers
+- Be precise we do not want to write in paragraphs if you do not find anything then the ultimate answer you think which is correct logically give that
+- Begin directly with your answer DO NOT start with "based on this context", "according to thecontext".
 
 Context from the insurance policy:
 {context}
