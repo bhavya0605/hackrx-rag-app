@@ -35,7 +35,7 @@ class Config:
     CHUNK_SIZE: int = 600
     CHUNK_OVERLAP: int = 100
     MAX_TOKENS: int = 4000
-    API_KEY: str = os.getenv("RAG_API_KEY", "c7a6d5889329b758fa0a7a567aa6f453476d1585208de51fb2d59a851da1f935")
+    API_KEY: str = os.getenv("RAG_API_KEY", "your_api_key")
 config = Config()
 
 # Setup logging
